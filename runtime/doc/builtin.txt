@@ -1,4 +1,4 @@
-*builtin.txt*	For Vim version 9.2.  Last change: 2026 Oct 31
+*builtin.txt*	For Vim version 9.2.  Last change: 2026 Nov 01
 
 
 		  VIM REFERENCE MANUAL	  by Bram Moolenaar
@@ -9628,7 +9628,7 @@ remove({blob}, {idx}, {end})
 			:echo "last byte: " .. remove(myblob, -1)
 			:call remove(mylist, 0, 9)
 <
-		Return type: |Number|
+		Return type: |Number| or |Blob|
 
 
 remove({dict}, {key})
